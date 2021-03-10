@@ -1,0 +1,78 @@
+.main {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: #E5E5E5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.figureWrapper {
+  padding: 5px;
+
+  background: linear-gradient(180deg, #2771AA -3.6%, #081925 71.1%);
+  border-radius: 30px;
+
+  width: 50%;
+  height: 75%;
+
+  max-width: 384px;
+
+  margin: 0 auto;
+}
+
+.figure {
+  box-sizing: border-box;
+
+  height: 100%;
+
+  background: linear-gradient(180deg, #4EA4DC 51.6%, #081925 161.2%);
+  border-radius: 30px;
+
+  padding: 100px 25px 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.textWrapper {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  padding: 4px;
+
+  background: linear-gradient(180deg, #2771AA -3.6%, #081925 71.1%);
+
+  border-radius: 10px;
+}
+
+.text {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+
+  outline: 0;
+  cursor: initial;
+
+  border-radius: 10px;
+  border: none;
+}
+
+.buttonWrapper {
+  
+}
+
+.buttonWrapper > * {
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 100%;
+}
